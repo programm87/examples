@@ -2,7 +2,8 @@
 
 require './funcs.php';
 echo realpath('.') . PHP_EOL . '<br>';
-echo dirname(__DIR__);
+echo dirname(__DIR__). '<br>';
+echo $_SERVER["REQUEST_METHOD"];
 //dAd($_POST);
 
 $param_user = array();

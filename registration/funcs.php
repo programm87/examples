@@ -14,3 +14,17 @@ function dAd($data)
     die;
 }
 
+function printAr($value){
+    echo '<pre>';
+    print_r($value);
+    echo '</pre>';
+}
+
+function getUserArray($arr, $id) {
+    $filterArr = array();
+    foreach ($arr[$id] as $key=>$value) {
+        $filterArr[$key] = $value;
+    }
+    
+    return $filterArr;
+}

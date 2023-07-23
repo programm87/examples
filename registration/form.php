@@ -1,7 +1,8 @@
 
 <?php
 echo realpath('.') . PHP_EOL . '<br>';
-echo dirname(__DIR__);
+echo dirname(__DIR__) . '<br>';
+echo $_SERVER["REQUEST_METHOD"];
 ?>
 
 <form method="post" action="do_register.php">
