@@ -7,5 +7,5 @@ echo realpath('.') . PHP_EOL . '<br>';
 ?>
 <?php echo $_SERVER["REQUEST_METHOD"]; ?>
 <br>
-<a href="form.php">Form</a>
+<a href="form.php">Registration</a>
 <a href="users.php">Users</a>

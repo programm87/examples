@@ -41,8 +41,9 @@ while ($row = $result->fetch()) {
             <td><?= $arr['username'] ?> : </td>
             <td><?= $arr['password'] ?> : </td>
             <td><?= $arr['email'] ?> : </td>
-            <td><?= $arr['fhone'] ?> : </td>
-            <td><a href="edituser.php?id=<?= $key ?>">Edit</td>
+            <td><?= $arr['fhone'] ?> : </td> 
+            <td><a href="edituserform.php?id=<?= $key ?>">Update</td>
+            <td><a href="delete.php?id=<?= $key ?>">Delete</td>      
         </tr>
     </table>    
 <?php } ?>
