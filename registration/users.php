@@ -43,7 +43,7 @@ while ($row = $result->fetch()) {
             <td><?= $arr['email'] ?> : </td>
             <td><?= $arr['fhone'] ?> : </td> 
             <td><a href="edituserform.php?id=<?= $key ?>">Update</td>
-            <td><a href="delete.php?id=<?= $key ?>">Delete</td>      
+            <td><a href="deleteuser.php?id=<?= $key ?>">Delete</td>      
         </tr>
     </table>    
 <?php } ?>
